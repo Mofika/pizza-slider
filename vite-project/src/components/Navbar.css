@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 50px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 300px;
+
+  font-family: 'Playfair Display', serif;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #c79a3b; 
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.btn.outline {
+  border: 1px solid #222;
+  background: transparent;
+  color: #222;
+}
+
+.btn.outline:hover {
+  background: #222;
+  color: #fff;
+}
+
+.btn.filled {
+  background: #c79a3b;
+  border: none;
+  color: #fff;
+}
+
+.btn.filled:hover {
+  background: #a67c28;
+}
